@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SCA STUDIO Products — Browse our full collection of premium casual streetwear." />
+  <title>Products — SCA STUDIO</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar opaque" aria-label="Main navigation">
+    <div class="container">
+      <a href="index.html" class="nav-logo">SCA STUDIO</a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile full-screen menu -->
+  <nav class="mobile-menu" aria-label="Mobile navigation">
+    <button class="mobile-menu-close" aria-label="Close menu">&times;</button>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>All Products</h1>
+      <p>12 styles · Free shipping on orders over RM 200</p>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section class="products-section">
+    <div class="container">
+
+      <!-- Toolbar (display only) -->
+      <div class="products-toolbar">
+        <span class="products-count">Showing 12 products</span>
+        <div class="products-sort">
+          <label for="sort-select">Sort by</label>
+          <select id="sort-select" aria-label="Sort products">
+            <option>Featured</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+            <option>Newest</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- 12-product grid -->
+      <div class="products-grid grid-3">
+
+        <!-- 01 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="素材/夏季小众潮牌高街美式 重磅男女宽松短袖T恤.jpg" alt="American Street Heavy Tee" loading="lazy" />
+          </div>
+          <div class="product-card-info">
+            <p class="product-card-name">American Street Heavy Tee</p>
+            <p class="product-card-price">RM 89</p>
+            <div class="size-selector" aria-label="Select size">
+              <button class="size-btn" type="button">S</button>
+              <button class="size-btn" type="button">M</button>
+              <button class="size-btn" type="button">L</button>
+              <button class="size-btn" type="button">XL</button>
+              <button class="size-btn" type="button">XXL</button>
+            </div>
+            <a href="#hitpay-placeholder" class="btn btn-primary">BUY NOW</a>
+          </div>
+        </div>
+
+        <!-- 02 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="素材/小众潮牌 瓶子印花男女宽松重磅纯棉短袖T恤.jpg" alt="Bottle Print Cotton Tee" loading="lazy" />
+          </div>
+          <div class="product-card-info">
+            <p class="product-card-name">Bottle Print Cotton Tee</p>
+            <p class="product-card-price">RM 89</p>
+            <div class="size-selector" aria-label="Select size">
+              <button class="size-btn" type="button">S</button>
+              <button class="size-btn" type="button">M</button>
+              <button class="size-btn" type="button">L</button>
+              <button class="size-btn" type="button">XL</button>
+              <button class="size-btn" type="button">XXL</button>
+            </div>
+            <a href="#hitpay-placeholder" class="btn btn-primary">BUY NOW</a>
+          </div>
+        </div>
+
+        <!-- 03 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="素材/小众潮牌休闲购物袋印花男女情侣高街宽松短袖T恤夏.jpg" alt="Shopping Bag Print Tee" loading="lazy" />
+          </div>
+          <div class="product-card-info">
+            <p class="product-card-name">Shopping Bag Print Tee</p>
+            <p class="product-card-price">RM 85</p>
+            <div class="size-selector" aria-label="Select size">
+              <button class="size-btn" type="button">S</button>
+              <button class="size-btn" type="button">M</button>
+              <button class="size-btn" type="button">L</button>
+              <button class="size-btn" type="button">XL</button>
+              <button class="size-btn" type="button">XXL</button>
+            </div>
+            <a href="#hitpay-placeholder" class="btn btn-primary">BUY NOW</a>
+          </div>
+        </div>
+
+        <!-- 04 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="素材/小众潮牌数字11印花男女休闲宽松百搭纯棉短袖T恤ins.jpg" alt="Number 11 Print Tee" loading="lazy" />
+          </div>
+          <div class="product-card-info">
+            <p class="product-card-name">Number 11 Print Tee</p>
+            <p class="product-card-price">RM 85</p>
+            <div class="size-selector" aria-label="Select size">
+              <button class="size-btn" type="button">S</button>
+              <button class="size-btn" type="button">M</button>
+              <button class="size-btn" type="button">L</button>
+              <button class="size-btn" type="button">XL</button>
+              <button class="size-btn" type="button">XXL</button>
+            </div>
+            <a href="#hitpay-placeholder" class="btn btn-primary">BUY NOW</a>
+          </div>
+        </div>
+
+        <!-- 05 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="素材/小众潮牌美式夏季休闲宽松男女情侣款纯棉短袖T恤ins.jpg" alt="American Casual Couple Tee" loading="lazy" />
+          </div>
+          <div class="product-card-info">
+            <p class="product-card-name">American Casual Couple Tee</p>
+            <p class="product-card-price">RM 85</p>
+            <div class="size-selector" aria-label="Select size">
+              <button class="size-btn" type="button">S</button>
+              <button class="size-btn" type="button">M</button>
+              <button class="size-btn" type="button">L</button>
+              <button class="size-btn" type="button">XL</button>
+              <button class="size-btn" type="button">XXL</button>
+            </div>
+            <a href="#hitpay-placeholder" class="btn btn-primary">BUY NOW</a>
+          </div>
+        </div>
+
+        <!-- 06 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="素材/小众潮牌美式高街 男女情侣宽松纯棉短袖T恤.jpg" alt="High Street Couple Tee" loading="lazy" />
+          </div>
+          <div class="product-card-info">
+            <p class="product-card-name">High Street Couple Tee</p>
+            <p class="product-card-price">RM 89</p>
+            <div class="size-selector" aria-label="Select size">
+              <button class="size-btn" type="button">S</button>
+              <button class="size-btn" type="button">M</button>
+              <button class="size-btn" type="button">L</button>
+              <button class="size-btn" type="button">XL</button>
+              <button class="size-btn" type="button">XXL</button>
+            </div>
+            <a href="#hitpay-placeholder" class="btn btn-primary">BUY NOW</a>
+          </div>
+        </div>
+
+        <!-- 07 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="素材/小众潮牌美式高街 重磅宽松纯棉短袖T恤男女.jpg" alt="High Street Heavy Cotton Tee" loading="lazy" />
+          </div>
+          <div class="product-card-info">
+            <p class="product-card-name">High Street Heavy Cotton Tee</p>
+            <p class="product-card-price">RM 89</p>
+            <div class="size-selector" aria-label="Select size">
+              <button class="size-btn" type="button">S</button>
+              <button class="size-btn" type="button">M</button>
+              <button class="size-btn" type="button">L</button>
+              <button class="size-btn" type="button">XL</button>
+              <button class="size-btn" type="button">XXL</button>
+            </div>
+            <a href="#hitpay-placeholder" class="btn btn-primary">BUY NOW</a>
+          </div>
+        </div>
+
+        <!-- 08 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="素材/小众高街美式夏季宽松男女情侣白色纯棉半袖短袖T恤.jpg" alt="White Summer Couple Tee" loading="lazy" />
+          </div>
+          <div class="product-card-info">
+            <p class="product-card-name">White Summer Couple Tee</p>
+            <p class="product-card-price">RM 85</p>
+            <div class="size-selector" aria-label="Select size">
+              <button class="size-btn" type="button">S</button>
+              <button class="size-btn" type="button">M</button>
+              <button class="size-btn" type="button">L</button>
+              <button class="size-btn" type="button">XL</button>
+              <button class="size-btn" type="button">XXL</button>
+            </div>
+            <a href="#hitpay-placeholder" class="btn btn-primary">BUY NOW</a>
+          </div>
+        </div>
+
+        <!-- 09 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="素材/潮牌2026新款印花小马短袖t恤宽松圆领纯棉重磅夏季上衣男女生.jpg" alt="2026 Pony Print Tee" loading="lazy" />
+          </div>
+          <div class="product-card-info">
+            <p class="product-card-name">2026 Pony Print Tee</p>
+            <p class="product-card-price">RM 95</p>
+            <div class="size-selector" aria-label="Select size">
+              <button class="size-btn" type="button">S</button>
+              <button class="size-btn" type="button">M</button>
+              <button class="size-btn" type="button">L</button>
+              <button class="size-btn" type="button">XL</button>
+              <button class="size-btn" type="button">XXL</button>
+            </div>
+            <a href="#hitpay-placeholder" class="btn btn-primary">BUY NOW</a>
+          </div>
+        </div>
+
+        <!-- 10 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="素材/王嘉尔明星同款四角标图案印花男女宽松纯棉短袖t恤.jpg" alt="Star Edition Label Tee" loading="lazy" />
+          </div>
+          <div class="product-card-info">
+            <p class="product-card-name">Star Edition Label Tee</p>
+            <p class="product-card-price">RM 95</p>
+            <div class="size-selector" aria-label="Select size">
+              <button class="size-btn" type="button">S</button>
+              <button class="size-btn" type="button">M</button>
+              <button class="size-btn" type="button">L</button>
+              <button class="size-btn" type="button">XL</button>
+              <button class="size-btn" type="button">XXL</button>
+            </div>
+            <a href="#hitpay-placeholder" class="btn btn-primary">BUY NOW</a>
+          </div>
+        </div>
+
+        <!-- 11 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="素材/美式潮牌十字架纯棉重磅短袖t恤男生宽松百搭情侣上衣潮流男装.jpg" alt="Cross Print Heavy Tee" loading="lazy" />
+          </div>
+          <div class="product-card-info">
+            <p class="product-card-name">Cross Print Heavy Tee</p>
+            <p class="product-card-price">RM 89</p>
+            <div class="size-selector" aria-label="Select size">
+              <button class="size-btn" type="button">S</button>
+              <button class="size-btn" type="button">M</button>
+              <button class="size-btn" type="button">L</button>
+              <button class="size-btn" type="button">XL</button>
+              <button class="size-btn" type="button">XXL</button>
+            </div>
+            <a href="#hitpay-placeholder" class="btn btn-primary">BUY NOW</a>
+          </div>
+        </div>
+
+        <!-- 12 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="素材/赵露思同款腊肠狗狗可爱百搭宽松男女纯棉短袖T恤夏.jpg" alt="Dachshund Cute Print Tee" loading="lazy" />
+          </div>
+          <div class="product-card-info">
+            <p class="product-card-name">Dachshund Cute Print Tee</p>
+            <p class="product-card-price">RM 85</p>
+            <div class="size-selector" aria-label="Select size">
+              <button class="size-btn" type="button">S</button>
+              <button class="size-btn" type="button">M</button>
+              <button class="size-btn" type="button">L</button>
+              <button class="size-btn" type="button">XL</button>
+              <button class="size-btn" type="button">XXL</button>
+            </div>
+            <a href="#hitpay-placeholder" class="btn btn-primary">BUY NOW</a>
+          </div>
+        </div>
+
+      </div><!-- /.products-grid -->
+    </div><!-- /.container -->
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <h3>SCA STUDIO</h3>
+          <p>Casual &amp; natural streetwear crafted for those who move with confidence. Quality fabrics, timeless silhouettes.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#" class="social-icon" aria-label="Instagram">IG</a>
+            <a href="#" class="social-icon" aria-label="TikTok">TK</a>
+            <a href="#" class="social-icon" aria-label="Facebook">FB</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 SCA STUDIO. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
